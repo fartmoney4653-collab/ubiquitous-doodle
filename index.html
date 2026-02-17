@@ -138,39 +138,32 @@
     </div>
 
     <script>
-        const asciiLogo = `.::.     :      +&$.         ::.     ::     .:     $&&X     
- &&&&:   X&&   x&&&&&&       &&&&:   X&&x    &&&  X&&&&&&&   
- &&&&&   X&&  x&&&&&&&&     :&&&&x   X&&x    &&& ;&&&&&&&&x  
- &&&&&:  X&&  &&&&&&&&&$    x&&&&&   X&&x    &&&;&&&X  x&&&  
- &&&&&&  X&& $&&&& ;&&&&    &&&&&&   X&&x    &&&x&&&+   &&&. 
- &&&&&&; X&&;&&&&    &&&+   &&&&&&.  X&&X    &&&x&&&&        
- &&&&&&& X&&x&&&:    &&&&  .&&&x&&+  X&&&&&&&&&&x&&&&&&&&X   
- &&&&&&&+X&&$&&&     ;&&&  +&&X.&&&  X&&&&&&&&&&;&&&&&&&&&x  
- &&&.&&&&&&&$&&&     :&&&  $&&; &&&  X&&&&&&&&&& ;&&&&&&&&&  
- &&& &&&&&&&$&&&     +&&&  &&&  $&&. X&&&&&&&&&&   &&&&&&&&  
- &&& :&&&&&&+&&&;    &&&$  &&&&&&&&+ X&&x    &&&       &&&&. 
- &&&  &&&&&&.&&&&   ;&&&: ;&&&&&&&&& X&&x    &&&+&&&.  X&&&  
- &&&  ;&&&&& +&&&&&&&&&&  X&&&&&&&&& X&&x    &&&+&&&X  &&&&  
- &&&   &&&&&  &&&&&&&&&:  &&&:   &&& X&&x    &&& X&&&&&&&&x  
- &&&   ;&&&&   &&&&&&&X   &&&    X&&;$&&x    &&&  &&&&&&&&   
- &&&    &&&&    $&&&&:   .&&x    :&&xX&&+    &&&   $&&&&&    
-:::::::::::::::::;x+::::::.. .:::...................:;;......
-$         .X$X  .       $$+   x$x      Xx  :  X$x .X$:   ;$$$
-$          X$X          $x     xx      .x  .  ;$x  X:     x$$
-$          X$X          X      :x       +  .   $x  +       X$
-$          X$X          x       ;  :;.  +  .   xx  :   .   X$
-$          X$X  .      .+  ;$:  :  x$X  +  .   ;x     x$:  x$
-$$$+  $$x  X$X  x$X  x$$.  X$x  .  x$X  +  .    x    .X$x  x$
-$$$+  $$x  X$X  x$X  x$$   $$X     +X;  x  .    :    :X$$$$$$
-$$$+  $$x  X$X  x$X  x$X  .$$X.        ;x  . .       :$$$$$$$
-$$$+  $$x  X$X  x$X  x$X  .$$X.        $x  . ;       :$$x+;X$
-$$$+  $$x  X$X  x$X  x$$.  $$X         :x  . +.      :X$:  ;$
-$$$+  $$x  x$x  x$X  x$$:  X$+  .  xX   x  . x+       x$x  ;$
-$$$+  $$x   .   X$X  x$$x  .x   :  x$:  +  . xx    .  ;X   ;$
-$$$+  $$X      :X$X  x$$X      .+  x$:  +  . xX    ;       ;$
-$$$+  $$$;     x$$X  x$$$:     +x  x$;  +  . x$;   x       ;$
-$$$+  $$$X.   :X$$X  x$$$X    :$x  x$+  +  . x$x   X+    + ;$
-$$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
+        const asciiLogo = `____                                                                                                    
+        ,'  , \`.                                                        ,--,                                      
+     ,-+-,.' _ |                       ,---.        ,---,             ,--.'|                                      
+  ,-+-. ;   , ||                      '   ,'\\   ,-+-. /  |            |  |,      .--.--.               .--.--.    
+ ,--.'|'   |  || ,--.--.        .--, /   /   | ,--.'|'   |  ,--.--.   \`--'_     /  /    '     ,---.   /  /    '   
+|   |  ,', |  |,/       \\     /_ ./|.   ; ,. :|   |  ,"' | /       \\  ,' ,'|   |  :  \`./    /     \\ |  :  /\`./   
+|   | /  | |--'.--.  .-. | , ' , ' :'   | |: :|   | /  | |.--.  .-. | '  | |   |  :  ;_     /    /  ||  :  ;_     
+|   : |  | ,    \\__\\/: . ./___/ \\: |'   | .; :|   | |  | | \\__\\/: . . |  | :    \\  \\    \`. .    ' / | \\  \\    \`.  
+|   : |  |/     ," .--.; | .  \\  ' ||   :    ||   | |  |/  ," .--.; | '  : |__   \`----.   \\'   ;   /|  \`----.   \\ 
+|   | \`-'     /  /  ,.  |  \\  ;   : \\   \\  / |   | |--'  /  /  ,.  | |  | '.'| /  /\`--'  /'   |  / | /  /\`--'  / 
+|   ;/        ;  :   .'   \\  \\  \\  ;  \`----'  |   |/     ;  :   .'   \\;  :    ;'--'.     / |   :    |'--'.     /  
+'---'         |  ,     .-./   :  \\  \\         '---'      |  ,     .-./|  ,   /   \`--'---'   \\   \\  /   \`--'---'   
+               \`--\`---'        \\  ' ;                     \`--\`---'     --\`-'                \`----'               
+  ,--,                          \`--\`,-.                                                                           
+,--.'|     ,--,                 ,--/ /|                                                                           
+|  | :   ,--.'|         ,---, ,--. :/ |                                    ,----,                                 
+:  : '   |  |,      ,-+-. /  |:  : ' /  .--.--.                          .'   .\`|                                 
+|  ' |   \`--'_     ,--.'|'   ||  '  /  /  /    '             ,---.    .'   .'  .'                                 
+'  | |   ,' ,'|   |   |  ,"' |'  |  : |  :  /\`./            /     \\ ,---, '   ./                                  
+|  | :   '  | |   |   | /  | ||  |   \\|  :  ;_             /    /  |;   | .'  /                                   
+'  : |__ |  | :   |   | |  | |'  : |. \\\\  \\    \`.         .    ' / |\`---' /  ;--,                                 
+|  | '.'|'  : |__ |   | |  |/ |  | ' \\ \`----.   \\        '   ;   /|  /  /  / .\`|                                 
+;  :    ;|  | '.'||   | |--'  '  : |--'/  /\`--'  /        '   |  / |./__;     .'                                  
+|  ,   / ;  :    ;|   |/      ;  |,'  '--'.     /         |   :    |;   |  .'                                     
+ --\`-'  |  ,   / '---'       '--'      \`--'---'           \\   \\  / \`---'                                         
+          --\`-'                                            \`----'`;
 
         document.getElementById('asciiLogo').textContent = asciiLogo;
 
@@ -181,49 +174,18 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
         let skipRequested = false;
         
         const loadingVariations = [
-            "Loading",
-            "Processing",
-            "Initializing",
-            "Compiling",
-            "Parsing",
-            "Optimizing",
-            "Caching",
-            "Validating",
-            "Verifying",
-            "Mounting",
-            "Starting",
-            "Configuring",
-            "Building",
-            "Generating",
-            "Transpiling",
-            "Rendering",
-            "Compressing",
-            "Decompressing",
-            "Analyzing",
-            "Scanning"
+            "Loading", "Processing", "Initializing", "Compiling", "Parsing",
+            "Optimizing", "Caching", "Validating", "Verifying", "Mounting",
+            "Starting", "Configuring", "Building", "Generating", "Transpiling",
+            "Rendering", "Compressing", "Decompressing", "Analyzing", "Scanning"
         ];
         
         const moduleVariations = [
-            "tutor modules",
-            "lesson modules",
-            "subject libraries",
-            "learning objects",
-            "problem files",
-            "configuration files",
-            "resource packages",
-            "diagram assets",
-            "formula compilers",
-            "audio lessons",
-            "font files",
-            "localization data",
-            "UI components",
-            "sync protocols",
-            "input handlers",
-            "progress trackers",
-            "cache layers",
-            "database connections",
-            "API endpoints",
-            "service workers"
+            "tutor modules", "lesson modules", "subject libraries", "learning objects",
+            "problem files", "configuration files", "resource packages", "diagram assets",
+            "formula compilers", "audio lessons", "font files", "localization data",
+            "UI components", "sync protocols", "input handlers", "progress trackers",
+            "cache layers", "database connections", "API endpoints", "service workers"
         ];
         
         const bootMessages = [
@@ -297,8 +259,7 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                 let status = Math.random() > 0.2 ? "info" : "load";
                 if (Math.random() > 0.9) status = "warn";
                 
-                const message = `${loadingType} ${moduleType}...`;
-                addBootMessage(bootTime, status, message);
+                addBootMessage(bootTime, status, `${loadingType} ${moduleType}...`);
                 extraMessagesAdded++;
                 
                 setTimeout(addRandomMessage, Math.random() * 800 + 300);
@@ -308,9 +269,7 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
         }
 
         function updateLoadingBar(percentage, assetName) {
-            if (currentLoadingBar) {
-                currentLoadingBar.remove();
-            }
+            if (currentLoadingBar) currentLoadingBar.remove();
             
             const barLine = document.createElement('div');
             barLine.className = 'boot-line';
@@ -331,7 +290,6 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
             barFill.className = 'loading-bar';
             barFill.textContent = '█'.repeat(Math.floor(percentage / 10));
             barFill.style.width = `${percentage}%`;
-            
             barContainer.appendChild(barFill);
             
             const percentageSpan = document.createElement('span');
@@ -366,20 +324,14 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                 const msg = bootMessages[messageIndex];
                 bootTime = msg.time;
                 addBootMessage(bootTime, msg.status, msg.message);
-                
                 messageIndex++;
                 
                 let delay;
                 const r = Math.random();
-                if (r > 0.8) {
-                    delay = Math.random() * 50 + 30;
-                } else if (r > 0.5) {
-                    delay = Math.random() * 150 + 50;
-                } else if (r > 0.2) {
-                    delay = Math.random() * 300 + 100;
-                } else {
-                    delay = Math.random() * 600 + 200;
-                }
+                if (r > 0.8) delay = Math.random() * 50 + 30;
+                else if (r > 0.5) delay = Math.random() * 150 + 50;
+                else if (r > 0.2) delay = Math.random() * 300 + 100;
+                else delay = Math.random() * 600 + 200;
                 
                 setTimeout(showBootMessages, delay);
             } else {
@@ -398,7 +350,6 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
             
             if (assetIndex < assets.length) {
                 const asset = assets[assetIndex];
-                
                 bootTime += 0.001000;
                 addBootMessage(bootTime, "info", `Loading: ${asset.name} (${asset.size})`);
                 
@@ -416,27 +367,19 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                     
                     if (assetProgress < 100) {
                         assetProgress = Math.min(100, assetProgress + stepIncrement);
-                        
                         updateLoadingBar(assetProgress, asset.name);
                         
                         let stepDelay;
-                        if (Math.random() > 0.7) {
-                            stepDelay = 20 + Math.random() * 20;
-                        } else if (Math.random() > 0.4) {
-                            stepDelay = 40 + Math.random() * 30;
-                        } else {
-                            stepDelay = 60 + Math.random() * 50;
-                        }
+                        if (Math.random() > 0.7) stepDelay = 20 + Math.random() * 20;
+                        else if (Math.random() > 0.4) stepDelay = 40 + Math.random() * 30;
+                        else stepDelay = 60 + Math.random() * 50;
                         
-                        if (Math.random() > 0.95) {
-                            stepDelay += 150 + Math.random() * 200;
-                        }
+                        if (Math.random() > 0.95) stepDelay += 150 + Math.random() * 200;
                         
                         setTimeout(loadStep, stepDelay);
                     } else {
                         bootTime += 0.000500;
                         addBootMessage(bootTime, "ok", `${asset.name} loaded`);
-                        
                         currentProgress = Math.round(((assetIndex + 1) / totalAssets) * 100);
                         
                         if (currentLoadingBar) {
@@ -445,14 +388,11 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                         }
                         
                         assetIndex++;
-                        
-                        const nextDelay = 80 + Math.random() * 150;
-                        setTimeout(loadAssets, nextDelay);
+                        setTimeout(loadAssets, 80 + Math.random() * 150);
                     }
                 }
                 
                 loadStep();
-                
             } else {
                 bootTime += 0.001000;
                 addBootMessage(bootTime, "ok", "All assets loaded successfully");
@@ -473,20 +413,13 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                     terminal.scrollTop = terminal.scrollHeight;
                     
                     setTimeout(startAutoLaunch, 1500);
-                    
                 }, 500);
             }
         }
 
         function finishBoot() {
-            if (countdownInterval) {
-                clearInterval(countdownInterval);
-                countdownInterval = null;
-            }
-            if (cancelHandler) {
-                document.removeEventListener('keydown', cancelHandler);
-                cancelHandler = null;
-            }
+            if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
+            if (cancelHandler) { document.removeEventListener('keydown', cancelHandler); cancelHandler = null; }
             
             bootTime += 0.001000;
             addBootMessage(bootTime, "ok", "Tutoring Hub ready for user input");
@@ -506,17 +439,12 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
         }
 
         function startAutoLaunch() {
-            if (countdownInterval) {
-                clearInterval(countdownInterval);
-                countdownInterval = null;
-            }
+            if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
             
             bootTime += 0.001000;
             
             const lines = terminal.querySelectorAll('.boot-line');
-            if (lines.length > 0) {
-                lines[lines.length - 1].remove();
-            }
+            if (lines.length > 0) lines[lines.length - 1].remove();
             
             addBootMessage(bootTime, "info", "Automatically starting tutor interface in 5 seconds...");
             
@@ -525,9 +453,7 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                 bootTime += 0.001000;
                 
                 const lines = terminal.querySelectorAll('.boot-line');
-                if (lines.length > 0) {
-                    lines[lines.length - 1].remove();
-                }
+                if (lines.length > 0) lines[lines.length - 1].remove();
                 
                 if (countdown > 0) {
                     addBootMessage(bootTime, "info", `Starting in <span class="countdown">${countdown}</span> second${countdown !== 1 ? 's' : ''}... (Press any key to cancel)`);
@@ -542,16 +468,11 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
             }, 1000);
             
             cancelHandler = (e) => {
-                if (countdownInterval) {
-                    clearInterval(countdownInterval);
-                    countdownInterval = null;
-                }
+                if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
                 bootTime += 0.001000;
                 
                 const lines = terminal.querySelectorAll('.boot-line');
-                if (lines.length > 0) {
-                    lines[lines.length - 1].remove();
-                }
+                if (lines.length > 0) lines[lines.length - 1].remove();
                 
                 addBootMessage(bootTime, "info", `Launch cancelled by user (key: ${e.key})`);
                 addBootMessage(bootTime, "info", "Press any key to launch now");
@@ -569,14 +490,8 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
         }
 
         function launchSite() {
-            if (countdownInterval) {
-                clearInterval(countdownInterval);
-                countdownInterval = null;
-            }
-            if (cancelHandler) {
-                document.removeEventListener('keydown', cancelHandler);
-                cancelHandler = null;
-            }
+            if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
+            if (cancelHandler) { document.removeEventListener('keydown', cancelHandler); cancelHandler = null; }
             
             const siteUrl = "https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/index.html";
             
@@ -603,20 +518,14 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
                             setTimeout(() => {
                                 bootTime += 0.001000;
                                 addBootMessage(bootTime, "info", "Closing boot terminal...");
-                                
-                                setTimeout(() => {
-                                    window.close();
-                                }, 1000);
+                                setTimeout(() => { window.close(); }, 1000);
                             }, 1500);
                         })
                         .catch(error => {
                             bootTime += 0.001000;
                             addBootMessage(bootTime, "err", `Failed to load tutor interface: ${error.message}`);
                             addBootMessage(bootTime, "info", "Press any key to retry");
-                            
-                            document.addEventListener('keydown', () => {
-                                location.reload();
-                            });
+                            document.addEventListener('keydown', () => { location.reload(); });
                         });
                 } else {
                     bootTime += 0.001000;
@@ -631,7 +540,7 @@ $$$X+x$$$$$x+x$$$$$++X$$$$X: +$$XxxX$$++X++x+X$$x+x$$x. x$+x$`;
         function showSkipPrompt() {
             setTimeout(() => {
                 if (!skipConfirmed) {
-                    const skip = confirm("This is just a loading screen btw, do you want to skip?");
+                    const skip = confirm("kdeen so cute i aint gon lie to u");
                     if (skip) {
                         skipLoading = true;
                         skipRequested = true;
